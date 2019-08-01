@@ -69,6 +69,11 @@ variable "validator_log_level" {
   default     = "debug"
 }
 
+variable "validator_linux_capacities" {
+  type        = list(string)
+  description = "List of capacities needed as Linux parameters"
+}
+
 variable "append_workspace_dns" {
   description = "Append Terraform workspace to DNS names created"
   default     = true
