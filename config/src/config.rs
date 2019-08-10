@@ -124,7 +124,7 @@ impl Default for BaseConfig {
             temp_data_dir: None,
             trusted_peers_file: "trusted_peers.config.toml".to_string(),
             trusted_peers: TrustedPeersConfig::default(),
-            node_sync_retries: 7,
+            node_sync_retries: 67,
             node_sync_channel_buffer_size: 10,
             node_async_log_chan_size: 256,
         }
